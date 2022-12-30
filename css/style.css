@@ -1,106 +1,88 @@
-#navbar .header{
-    background-color: rgb(240, 15, 191);
-    
-
+#navbar .header {
+  background-color: rgb(240, 15, 191);
 }
-#navbar .navbar-brand{
-    font: size 30px; ;
+#navbar .navbar-brand {
+  font: size 30px;
 }
-#banner  {
-background-image: url("/media/banner.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+#banner {
+  background-image: url("/media/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-width: 100%;
-height: 100%;
-
-
-
-
+  width: 100%;
+  height: 100%;
 }
 
-#banner h4{
-    text-align: center;
-    /* padding-top: 10px;
+#banner h4 {
+  text-align: center;
+  /* padding-top: 10px;
     padding-bottom: 20px; */
-    margin: 20px;
-    font-size: 30px;
-    color:yellow;
-    transition-property: background-color ;
-    transition-duration: 3s;
-    
-    
-    
+  margin: 20px;
+  font-size: 30px;
+  color: yellow;
+  transition-property: background-color;
+  transition-duration: 3s;
 }
-#banner h4:hover{
-    background-color: rgb(182, 21, 134);
-    cursor: pointer;
-
+#banner h4:hover {
+  background-color: rgb(182, 21, 134);
+  cursor: pointer;
 }
-#banner p{
-    color: aliceblue;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 10px;
-    text-decoration:none;
-
+#banner p {
+  color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
 }
-#section3{
-    font-size: 30px;
-    color: darkblue;
+#section3 {
+  font-size: 30px;
+  color: darkblue;
 }
-#section3 .row{
-    border: 2px;
-    color: brown;
-    font-size: 20px;
-    transition-property:background-color ;
-    transition-duration: 1s;
-    background-color:rgb(212, 209, 209);
-    font-weight: bold;
+#section3 .row {
+  border: 2px;
+  color: brown;
+  font-size: 20px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  background-color: rgb(212, 209, 209);
+  font-weight: bold;
 }
-#section3 .jaipur-feature:hover{
-background-color: palevioletred;
-    border: 3px;
-    cursor: pointer;
+#section3 .jaipur-feature:hover {
+  background-color: palevioletred;
+  border: 3px;
+  cursor: pointer;
 }
-#section4 .row{
-    border: 2px;
-    color: brown;
-    font-size: 20px;
-    transition-property:background-color ;
-    transition-duration: 1s;
-    background-color:rgb(212, 209, 209);
-    font-weight: bold;
-
+#section4 .row {
+  border: 2px;
+  color: brown;
+  font-size: 20px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  background-color: rgb(212, 209, 209);
+  font-weight: bold;
 }
-#section4 .jaipur-feature:hover{
-    background-color: palevioletred;
-    border: 3px;
-    cursor: pointer;
+#section4 .jaipur-feature:hover {
+  background-color: palevioletred;
+  border: 3px;
+  cursor: pointer;
 }
 
 /* Description style in home page start */
-.description{
-    background-color: rgba(0, 0, 0, 0.432);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px black;
+.description {
+  background-color: rgba(0, 0, 0, 0.432);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
 }
 
-#section5 img{
-    
-    transition-property:trasform;
-    transition-duration: 1s;
-    border: 3px solid pink;
-    /* transform: scaleZ(1.5); */
-    
-    
+#section5 img {
+  transition-property: trasform;
+  transition-duration: 1s;
+  border: 3px solid pink;
+  /* transform: scaleZ(1.5); */
 }
-#section5 img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-
-    
-
+#section5 img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 /* .div1{
     width: 350px;
@@ -115,103 +97,86 @@ background-color: palevioletred;
     
 } */
 
-#section5 h2{
-    font-size: 40px;
-    color:rgb(216, 16, 116);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+#section5 h2 {
+  font-size: 40px;
+  color: rgb(216, 16, 116);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-#section5 p{
-    padding-top: 30px;
-}
-
-#section6 img{
-    
-    transition-property:transform;
-    transition-duration: 1s;
-    border: 3px solid pink;
-    
-    
-}
-#section6 img:hover{
-   transform: scale(1.1);
-   cursor: pointer;
-    
-
+#section5 p {
+  padding-top: 30px;
 }
 
-#section6 h2{
-    font-size: 40px;
-    color:rgb(216, 16, 116);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+#section6 img {
+  transition-property: transform;
+  transition-duration: 1s;
+  border: 3px solid pink;
 }
-#section6 p{
-    padding-top: 30px;
-    padding-bottom: 100px;
-}
-
-#section7 img{
-    
-    transition-property:transform;
-    transition-duration: 1s;
-    border: 2px solid pink;
-    
-    
-}
-#section7 img:hover{
+#section6 img:hover {
   transform: scale(1.1);
   cursor: pointer;
-    
-
 }
 
-#section7 h2{
-    font-size: 40px;
-    color:rgb(216, 16, 116);
-    padding-top: 100px;
-    
-    
+#section6 h2 {
+  font-size: 40px;
+  color: rgb(216, 16, 116);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-#section7 p{
-    padding-top: 30px;
-}
-#section8{
-    background-image: url("/media/jaipur-night-tour-and-safari-500x500.png");
-    background-repeat: no-repeat;
-    
-    background-size: cover;
-}
-#section8 h2{
-    font-size: 21px;
-    color: wheat;
-    padding-top: 100px;
-padding-bottom: 5px;
-
-}
-#section8 p{
-    color: white;
-    font-weight: bold;
-    transition-property: color ;
-    transition-duration: 1s;
-    
+#section6 p {
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 
-
-#section8 pre{
-    color: white;
-    font-weight: bold;
-    transition-property: color ;
-    transition-duration: 1s;
+#section7 img {
+  transition-property: transform;
+  transition-duration: 1s;
+  border: 2px solid pink;
 }
-#section8 pre:hover{
-    color: rgb(158, 29, 100);
-    position: right;
-    cursor: pointer;
+#section7 img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-.footer-hover:hover{
-    color: blue;
+#section7 h2 {
+  font-size: 40px;
+  color: rgb(216, 16, 116);
+  padding-top: 100px;
+}
+#section7 p {
+  padding-top: 30px;
+}
+#section8 {
+  background-image: url("/JaipurProject/photos/footer.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+#section8 h2 {
+  font-size: 21px;
+  color: wheat;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+#section8 p {
+  color: white;
+  font-weight: bold;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+#section8 pre {
+  color: white;
+  font-weight: bold;
+  transition-property: color;
+  transition-duration: 1s;
+}
+#section8 pre:hover {
+  color: rgb(158, 29, 100);
+  position: right;
+  cursor: pointer;
+}
+
+.footer-hover:hover {
+  color: blue;
 }
